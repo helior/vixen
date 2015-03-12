@@ -13,9 +13,16 @@ function vixen_faq_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'ant_faq_item';
+  $strongarm->name = 'auto_entitylabel_node_faq_item';
   $strongarm->value = '1';
-  $export['ant_faq_item'] = $strongarm;
+  $export['auto_entitylabel_node_faq_item'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'auto_entitylabel_pattern_node_faq_item';
+  $strongarm->value = '[node:field_faq_questions]';
+  $export['auto_entitylabel_pattern_node_faq_item'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
