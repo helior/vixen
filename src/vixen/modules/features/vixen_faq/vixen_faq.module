@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Vixen FAQ feature.
+ */
+
+include_once 'vixen_faq.features.inc';
