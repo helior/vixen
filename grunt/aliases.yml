@@ -3,3 +3,5 @@ core:
   - 'copy'
 profile:
   - 'shell:profile_make'
+install:
+  - 'shell:install'

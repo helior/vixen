@@ -9,3 +9,8 @@ module.exports =
     options:
       execOptions:
         cwd: 'src/vixen'
+  install:
+    command: 'drush si vixen --account-name=admin --account-pass=admin -y'
+    options:
+      execOptions:
+        cwd: 'docroot/sites/all'
