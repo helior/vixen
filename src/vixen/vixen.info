@@ -2,6 +2,9 @@ name = Vixen
 description = Install profile for managing the Foxtail API.
 core = 7.x
 
-
+; Administrative modules
 dependencies[] = admin_menu
-dependencies[] = restful
+dependencies[] = field_ui
+
+; Features
+vixen_faq

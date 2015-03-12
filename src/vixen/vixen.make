@@ -5,8 +5,10 @@ defaults[projects][subdir] = contrib
 
 ; Contrib Modules
 projects[] = admin_menu
+projects[] = auto_nodetitle
 projects[] = ctools
 projects[] = features
+projects[] = strongarm
 
 projects[entity][version] = 1.6
 projects[entity][patch][2086225] = https://www.drupal.org/files/issues/2086225-entity-access-check-18.patch
