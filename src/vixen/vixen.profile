@@ -15,7 +15,7 @@ function vixen_profile_details() {
  */
 function vixen_install_tasks() {
   return array(
-    '_satellite_install_task_theme' => array('display' => FALSE),
+    '_vixen_install_task_theme' => array('display' => FALSE),
   );
 }
 

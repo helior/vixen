@@ -1,3 +1,7 @@
 name = Vixen
 description = Install profile for managing the Foxtail API.
 core = 7.x
+
+
+dependencies[] = admin_menu
+dependencies[] = restful
