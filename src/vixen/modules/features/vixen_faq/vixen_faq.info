@@ -6,6 +6,7 @@ version = 7.x-1.0
 project = vixen_faq
 dependencies[] = auto_entitylabel
 dependencies[] = features
+dependencies[] = restful
 dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = token

@@ -5,3 +5,12 @@
  */
 
 include_once 'vixen_faq.features.inc';
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function vixen_faq_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'restful') {
+    return "plugins/$module/$plugin";
+  }
+}
