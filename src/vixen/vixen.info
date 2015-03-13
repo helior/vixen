@@ -7,4 +7,5 @@ dependencies[] = admin_menu
 dependencies[] = field_ui
 
 ; Features
+dependencies[] = vixen_base
 dependencies[] = vixen_faq
