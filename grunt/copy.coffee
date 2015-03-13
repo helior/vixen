@@ -9,7 +9,7 @@ module.exports =
   settings:
     files: [
       expand: true
-      cwd: 'src'
-      src: 'settings.php'
+      cwd: 'src/'
+      src: ['settings.php', 'settings/**']
       dest: 'docroot/sites/default/'
     ]
