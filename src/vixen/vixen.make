@@ -6,6 +6,7 @@ defaults[projects][subdir] = contrib
 ; Contrib Modules
 projects[] = admin_menu
 projects[] = auto_entitylabel
+projects[] = cors
 projects[] = ctools
 projects[] = features
 projects[] = strongarm
