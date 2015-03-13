@@ -1,0 +1,10 @@
+name = Vixen Base
+description = Base Feature module for exporting essential functionality.
+core = 7.x
+package = Vixen
+version = 7.x-1.0
+project = vixen_base
+dependencies[] = features
+dependencies[] = node
+features[features_api][] = api:2
+features[user_permission][] = access content
