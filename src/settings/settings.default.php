@@ -10,6 +10,5 @@ $databases['default']['default']['prefix'] = '';
 
 // CORS support
 $conf['cors_domains'] = array(
-  '*' => '*,',
   'api/v1.0/*' => '<mirror>|GET|Content-Type,Authorization|true',
 );
